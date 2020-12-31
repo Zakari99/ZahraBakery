@@ -38,6 +38,9 @@ body {
 	color: #242424;
 	transform: translateY(-2px) !important;
 }
+h4 .pipe {
+	font-family: 'Courier New', Courier, monospace;
+}
 
 /* Header */
 #header {
@@ -341,6 +344,11 @@ body {
 
 /* End of Customer reviews */
 /* Team members */
+#team {
+	width: 100%;
+	background: linear-gradient(rgba(21, 3, 29, 0.7), rgba(65, 8, 8, 0.7)),
+		url(../the_rosa_imgs/menu-group-1.jpg) center/cover fixed no-repeat;
+}
 .team-card img {
 	width: 348px;
 	height: calc(100vh - 197px);
@@ -408,4 +416,11 @@ body {
 	position: fixed;
 	bottom: 70px;
 	right: 10px;
+}
+
+@media only screen and(max-width:800px) {
+	.info-icons {
+		display: flex;
+		order: 1;
+	}
 }
