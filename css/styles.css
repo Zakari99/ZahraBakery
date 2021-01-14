@@ -131,6 +131,7 @@ h4 .pipe {
 
 .header-link:hover {
 	color: #242424;
+	cursor: default;
 }
 
 @keyframes scrollDown {
